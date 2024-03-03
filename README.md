@@ -1,6 +1,6 @@
 # NotesClone 📝
 An iOS Notes Clone app made with UIKit. Take this project as a base for further implementations you may want to add. Feel free to make any PR or alert me of any crashes.
-#### Features
+ Features
 - Storyboards (UI)
 - Delegates (Events)
 - UserDefaults (Local storage)
