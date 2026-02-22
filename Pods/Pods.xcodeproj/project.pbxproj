@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065BEF255C506543E8DD62B977243763 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = DD86519BB3C08DD9E45392192528C4A9 /* NSString+Morphing.m */; };
+		4406F2BED18FDBE49FBC197D248210D7 /* TOMSMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47FAF213EDE32648BFC394DA6454BB2 /* TOMSMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCBF214DBD872A7B1BE08D4AB19C7AC /* Pods-NotesClone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F36C7120695D07397B2AE800F813E08D /* Pods-NotesClone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AD2E4000F780CB9191CED1505D440E /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855BE0B5D54A60CDD2BC8663B01B5B79 /* TOMSMorphingLabel.m */; };
+		763C73AD2F00B6F58ADAE553385D520D /* TOMSMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF5EF7157C9ED452588780FA973013 /* TOMSMorphingLabel-dummy.m */; };
+		803FB7F240D08E5B3419786BDACFC8BC /* Pods-NotesClone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07077B2CA4EBBF4783C69154474C5122 /* Pods-NotesClone-dummy.m */; };
+		87B20C93FD09FFECBCDC709AB35464BC /* TOMSMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9114D067DFC9ECAC038DEAFDB846A51F /* TOMSMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CE292462A3A2DBB56945E7A78491ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B81F7C2E7183CAF42CFB934EB312D553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E7E32C60A07DB3FC5580A5A51A52722E /* NSString+Morphing.h in Headers */ = {isa = PBXBuildFile; fileRef = B3709A66C22F8FE8AD91B4161137BC4B /* NSString+Morphing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B82D1157A4F628908F5C632CF9D398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22C2D56D223771986156876637F8AE2;
+			remoteInfo = TOMSMorphingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07077B2CA4EBBF4783C69154474C5122 /* Pods-NotesClone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotesClone-dummy.m"; sourceTree = "<group>"; };
+		0BD02BF04B712B55B867615BDF10C705 /* Pods-NotesClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotesClone.debug.xcconfig"; sourceTree = "<group>"; };
+		18BEDB2B0123A841A02CD53EEDC0EB4F /* TOMSMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOMSMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		19CF947ED18636E326DD78242905DD99 /* Pods-NotesClone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotesClone-acknowledgements.plist"; sourceTree = "<group>"; };
+		21D72D3A67C8A40AC772C6F2FD228D56 /* TOMSMorphingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TOMSMorphingLabel-Info.plist"; sourceTree = "<group>"; };
+		3910C6BE408548F61242001826F0BFD4 /* Pods-NotesClone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotesClone-Info.plist"; sourceTree = "<group>"; };
+		446FF9EFCC70A2E1B7C50F6F50E639D9 /* Pods-NotesClone */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NotesClone"; path = Pods_NotesClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4768BF3D0A6BDF374106B6F748808B8B /* Pods-NotesClone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotesClone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		774DC203399A72391C46B25E844CD68B /* Pods-NotesClone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotesClone-frameworks.sh"; sourceTree = "<group>"; };
+		7CC32835342DB243E9E428CED5901398 /* TOMSMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TOMSMorphingLabel.modulemap; sourceTree = "<group>"; };
+		855BE0B5D54A60CDD2BC8663B01B5B79 /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOMSMorphingLabel.m; path = Classes/TOMSMorphingLabel.m; sourceTree = "<group>"; };
+		9114D067DFC9ECAC038DEAFDB846A51F /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOMSMorphingLabel.h; path = Classes/TOMSMorphingLabel.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3709A66C22F8FE8AD91B4161137BC4B /* NSString+Morphing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Morphing.h"; path = "Classes/NSString+Morphing.h"; sourceTree = "<group>"; };
+		B75E6C6C089003A125270E0B19E1E528 /* TOMSMorphingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOMSMorphingLabel.debug.xcconfig; sourceTree = "<group>"; };
+		B81771FC0F2A5CD10F1E185D744B0BF7 /* Pods-NotesClone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotesClone.modulemap"; sourceTree = "<group>"; };
+		C414AA1351E99153C850D9F5AFABC6F2 /* TOMSMorphingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOMSMorphingLabel.release.xcconfig; sourceTree = "<group>"; };
+		D47FAF213EDE32648BFC394DA6454BB2 /* TOMSMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOMSMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		DB045C30A2E385D16CC2C6F3AFF4F65F /* Pods-NotesClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotesClone.release.xcconfig"; sourceTree = "<group>"; };
+		DD86519BB3C08DD9E45392192528C4A9 /* NSString+Morphing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Morphing.m"; path = "Classes/NSString+Morphing.m"; sourceTree = "<group>"; };
+		F36C7120695D07397B2AE800F813E08D /* Pods-NotesClone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotesClone-umbrella.h"; sourceTree = "<group>"; };
+		FDEF5EF7157C9ED452588780FA973013 /* TOMSMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOMSMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		FF11194835AFA7BF7AD1625AD9D07152 /* TOMSMorphingLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TOMSMorphingLabel; path = TOMSMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E2A845DB73B479B1101AEE9F6238A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CE292462A3A2DBB56945E7A78491ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97057FD9487D739CCF778C77BE7E8E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81F7C2E7183CAF42CFB934EB312D553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35BCD5DC362B7E52A8802BD1BB04F9B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CC32835342DB243E9E428CED5901398 /* TOMSMorphingLabel.modulemap */,
+				FDEF5EF7157C9ED452588780FA973013 /* TOMSMorphingLabel-dummy.m */,
+				21D72D3A67C8A40AC772C6F2FD228D56 /* TOMSMorphingLabel-Info.plist */,
+				18BEDB2B0123A841A02CD53EEDC0EB4F /* TOMSMorphingLabel-prefix.pch */,
+				D47FAF213EDE32648BFC394DA6454BB2 /* TOMSMorphingLabel-umbrella.h */,
+				B75E6C6C089003A125270E0B19E1E528 /* TOMSMorphingLabel.debug.xcconfig */,
+				C414AA1351E99153C850D9F5AFABC6F2 /* TOMSMorphingLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOMSMorphingLabel";
+			sourceTree = "<group>";
+		};
+		4D9C76DCBBFC0DD606D16113F51EAB05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81010074D725FCE933E1D754080F202A /* TOMSMorphingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72F1F5CE7417E92647EFF51EFC590FB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D286834586575151C3C10907AF80391C /* Pods-NotesClone */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81010074D725FCE933E1D754080F202A /* TOMSMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B3709A66C22F8FE8AD91B4161137BC4B /* NSString+Morphing.h */,
+				DD86519BB3C08DD9E45392192528C4A9 /* NSString+Morphing.m */,
+				9114D067DFC9ECAC038DEAFDB846A51F /* TOMSMorphingLabel.h */,
+				855BE0B5D54A60CDD2BC8663B01B5B79 /* TOMSMorphingLabel.m */,
+				35BCD5DC362B7E52A8802BD1BB04F9B6 /* Support Files */,
+			);
+			name = TOMSMorphingLabel;
+			path = TOMSMorphingLabel;
+			sourceTree = "<group>";
+		};
+		B91E55A9B9C0F049166F0DF1038DA142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446FF9EFCC70A2E1B7C50F6F50E639D9 /* Pods-NotesClone */,
+				FF11194835AFA7BF7AD1625AD9D07152 /* TOMSMorphingLabel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4D9C76DCBBFC0DD606D16113F51EAB05 /* Pods */,
+				B91E55A9B9C0F049166F0DF1038DA142 /* Products */,
+				72F1F5CE7417E92647EFF51EFC590FB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D286834586575151C3C10907AF80391C /* Pods-NotesClone */ = {
+			isa = PBXGroup;
+			children = (
+				B81771FC0F2A5CD10F1E185D744B0BF7 /* Pods-NotesClone.modulemap */,
+				4768BF3D0A6BDF374106B6F748808B8B /* Pods-NotesClone-acknowledgements.markdown */,
+				19CF947ED18636E326DD78242905DD99 /* Pods-NotesClone-acknowledgements.plist */,
+				07077B2CA4EBBF4783C69154474C5122 /* Pods-NotesClone-dummy.m */,
+				774DC203399A72391C46B25E844CD68B /* Pods-NotesClone-frameworks.sh */,
+				3910C6BE408548F61242001826F0BFD4 /* Pods-NotesClone-Info.plist */,
+				F36C7120695D07397B2AE800F813E08D /* Pods-NotesClone-umbrella.h */,
+				0BD02BF04B712B55B867615BDF10C705 /* Pods-NotesClone.debug.xcconfig */,
+				DB045C30A2E385D16CC2C6F3AFF4F65F /* Pods-NotesClone.release.xcconfig */,
+			);
+			name = "Pods-NotesClone";
+			path = "Target Support Files/Pods-NotesClone";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EF87B4FAFE2A31ED9F57E27A8CBD228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCBF214DBD872A7B1BE08D4AB19C7AC /* Pods-NotesClone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592CB3A701EBC0F53F538FBC95090426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E32C60A07DB3FC5580A5A51A52722E /* NSString+Morphing.h in Headers */,
+				87B20C93FD09FFECBCDC709AB35464BC /* TOMSMorphingLabel.h in Headers */,
+				4406F2BED18FDBE49FBC197D248210D7 /* TOMSMorphingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B344ED7BB8B23A1A6C14CE15BCB98B9 /* Pods-NotesClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857CD37CCB2E7DA0420A9B9613652230 /* Build configuration list for PBXNativeTarget "Pods-NotesClone" */;
+			buildPhases = (
+				2EF87B4FAFE2A31ED9F57E27A8CBD228 /* Headers */,
+				B2422D3127BEE5A2E8DF44F57D1986E9 /* Sources */,
+				68E2A845DB73B479B1101AEE9F6238A6 /* Frameworks */,
+				3F03C9578C1F2BE744D3444FDE00E0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC38E68B9B21A6678FE930CB8A229E97 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotesClone";
+			productName = Pods_NotesClone;
+			productReference = 446FF9EFCC70A2E1B7C50F6F50E639D9 /* Pods-NotesClone */;
+			productType = "com.apple.product-type.framework";
+		};
+		C22C2D56D223771986156876637F8AE2 /* TOMSMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80EC735181DDE14003EB87EA1840288 /* Build configuration list for PBXNativeTarget "TOMSMorphingLabel" */;
+			buildPhases = (
+				592CB3A701EBC0F53F538FBC95090426 /* Headers */,
+				D58F2353281FB654785DE82062332A17 /* Sources */,
+				97057FD9487D739CCF778C77BE7E8E6E /* Frameworks */,
+				D7903A4D3860B102A0BA0F5E318988E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOMSMorphingLabel;
+			productName = TOMSMorphingLabel;
+			productReference = FF11194835AFA7BF7AD1625AD9D07152 /* TOMSMorphingLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = B91E55A9B9C0F049166F0DF1038DA142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B344ED7BB8B23A1A6C14CE15BCB98B9 /* Pods-NotesClone */,
+				C22C2D56D223771986156876637F8AE2 /* TOMSMorphingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F03C9578C1F2BE744D3444FDE00E0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7903A4D3860B102A0BA0F5E318988E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2422D3127BEE5A2E8DF44F57D1986E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803FB7F240D08E5B3419786BDACFC8BC /* Pods-NotesClone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58F2353281FB654785DE82062332A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065BEF255C506543E8DD62B977243763 /* NSString+Morphing.m in Sources */,
+				72AD2E4000F780CB9191CED1505D440E /* TOMSMorphingLabel.m in Sources */,
+				763C73AD2F00B6F58ADAE553385D520D /* TOMSMorphingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC38E68B9B21A6678FE930CB8A229E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOMSMorphingLabel;
+			target = C22C2D56D223771986156876637F8AE2 /* TOMSMorphingLabel */;
+			targetProxy = 76B82D1157A4F628908F5C632CF9D398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E35850798A89583D8D0FDEF8DDE73D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB045C30A2E385D16CC2C6F3AFF4F65F /* Pods-NotesClone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotesClone/Pods-NotesClone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotesClone/Pods-NotesClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7D67B5320D8EB813B6748FE772D604EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C414AA1351E99153C850D9F5AFABC6F2 /* TOMSMorphingLabel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel.modulemap";
+				PRODUCT_MODULE_NAME = TOMSMorphingLabel;
+				PRODUCT_NAME = TOMSMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B33B442A41E24E8F5764E3514EAA8D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD02BF04B712B55B867615BDF10C705 /* Pods-NotesClone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotesClone/Pods-NotesClone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotesClone/Pods-NotesClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBFFF3D66EF5DA2FE66E487F2D9D4074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75E6C6C089003A125270E0B19E1E528 /* TOMSMorphingLabel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel.modulemap";
+				PRODUCT_MODULE_NAME = TOMSMorphingLabel;
+				PRODUCT_NAME = TOMSMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857CD37CCB2E7DA0420A9B9613652230 /* Build configuration list for PBXNativeTarget "Pods-NotesClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33B442A41E24E8F5764E3514EAA8D31 /* Debug */,
+				1E35850798A89583D8D0FDEF8DDE73D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80EC735181DDE14003EB87EA1840288 /* Build configuration list for PBXNativeTarget "TOMSMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFFF3D66EF5DA2FE66E487F2D9D4074 /* Debug */,
+				7D67B5320D8EB813B6748FE772D604EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

